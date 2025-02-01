@@ -1,15 +1,15 @@
 
 // lights
-const lr = document.querySelector('#l1')
-const ly = document.querySelector('#l2')
-const lg = document.querySelector('#l3')
+const lr = document.querySelector('#l1'),
+    ly = document.querySelector('#l2'),
+    lg = document.querySelector('#l3')
 
 // times for each phase
-const tr = 10000
-const trd = 3000
-const tg = 8000
-const tb = 500 // *3, *2
-const ty = 3000
+const tr = 10000,
+    trd = 3000,
+    tg = 8000,
+    tb = 500, // *3, *2
+    ty = 3000
 
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));

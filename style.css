@@ -6,7 +6,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: linear-gradient(to bottom right, black, midnightblue, darkviolet, crimson);
+	background: linear-gradient(to bottom right, beige, khaki, goldenrod);
 	height: 100vh;
 	margin: 0;
 }
@@ -29,6 +29,7 @@ body {
 	border: 10px solid #444;
 	border-radius: 100%;
 	margin: 10%;
+	transition: 200ms;
 }
 
 #l1 {
