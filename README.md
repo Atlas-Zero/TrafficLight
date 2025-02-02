@@ -1,3 +1,3 @@
 # Important
-- Die Ente ist nicht krankenversichert
-- ich hab keinen Bock mehr auf die Ampel
+- "Die Ente ist nicht krankenversichert!"
+- "Ich hab keinen Bock mehr auf die Ampel!"
