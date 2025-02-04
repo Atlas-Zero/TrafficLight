@@ -5,10 +5,10 @@ const lr = document.querySelector('#l1'),
     lg = document.querySelector('#l3')
 
 // times for each phase
-const tr = 10000,
+const tr = 8000,
     trd = 3000,
     tg = 8000,
-    tb = 500, // *3, *2
+    tb = 500, // (4 repeats, 2 times on/off) = 4000ms
     ty = 3000
 
 function sleep(ms) {
@@ -65,7 +65,7 @@ async function logic(state) {
 }
 
 async function runLogic() {
-	let state = 'red'
+	let state = 'green'
 	while (true) {
 		state = await logic(state)
         console.log(state)
